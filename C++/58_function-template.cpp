@@ -6,8 +6,8 @@
 #include<iostream>
 using namespace std;
 
-template <typename T, typename U>
-auto max(T x, U y){
+template <typename T, typename U>    //T for one dataType and U for another dataType
+auto max(T x, U y){                 //auto will take automatically dataTypes
 
     return (x > y) ? x : y;
 }

@@ -1,10 +1,14 @@
 // enums --> a user-defined data type that consists
 //           of paired named-integer constants.
 
+//enum value can only take one value from the sets
+
 #include<iostream>
 using namespace std;
 
 enum Day {sunday = 0, monday = 1, tuesday = 2, wednesday = 3, thursday = 4, friday = 5, saturday = 6};
+
+enum flavour {vanilla, chocolate, strawberry, mint}; // if not assigned no. it implicitly assign vanilla - 0 and so on.
 
 int main(){
 

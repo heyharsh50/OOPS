@@ -38,7 +38,7 @@ public:
 int main(){
     Teacher t1;
     t1.name = "Harsh";
-    t1.dept = "Computer Science & Enginnering";
+    t1.dept = "Computer Science & Engineering";
     t1.sub = "Compiler Design";
     t1.setSalary(48000);
 

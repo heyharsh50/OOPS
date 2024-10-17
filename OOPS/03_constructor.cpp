@@ -1,10 +1,10 @@
-/* Constructor --> Types -> 1.Non-Parametreized constructor
+/* Constructor --> Types -> 1.Non-Parameterized constructor
                             2.Parameterized constructor
                             3.Copy constructor */
 
 // Use for initialisation of object.
 
-class Teacher {
+/*class Teacher {
 private:
     double salary;
 
@@ -47,13 +47,13 @@ int main(){
     Teacher T4;
 return 0;
 
-}
+}*/
 
 
 /* In one class there can be multiple constructor but constructors parameter should be different */
 
 //Eg.
-    class Teacher{
+  /* class Teacher{
         public:
             Teacher(){
                 ....
@@ -64,4 +64,4 @@ return 0;
                 ...........
                 ...........
             }
-    }
+    }*/

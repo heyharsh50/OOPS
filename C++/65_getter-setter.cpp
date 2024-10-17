@@ -18,7 +18,17 @@ class Stove{
         }
 
         void setTemp(int temp){
-            this->temp = temp;
+
+            if(temp < 0){
+                this->temp = 0;
+            }
+            else if(temp >= 10){
+                this->temp = 10;
+            }
+            else{
+                this->temp = temp;
+            }
+            
         }
 };
 
@@ -26,7 +36,7 @@ int main(){
 
     Stove stove1;
 
-    stove1.setTemp(100);
+    stove1.setTemp(5);
 
     cout<<"Temperature setting is: "<<stove1.getTemp()<<endl;
 

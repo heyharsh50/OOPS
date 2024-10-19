@@ -2,9 +2,8 @@
 using namespace std;
 
 class Add{
-    int value;
-    
     public:
+        int value;
         Add(int v = 0) : value(v) {}
         
         // Overloading the '+' operator
